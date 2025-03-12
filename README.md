@@ -1,6 +1,6 @@
-# Cyberpunk Focus Theme for JetBrains IDEs
+# Cyberpunk Focus Theme for IDEs
 
-Transform your JetBrains IDE into a futuristic coding environment with the **Cyberpunk Focus** collection—a set of next-generation themes inspired by a cyberpunk aesthetic. Designed to help you focus on important elements while keeping your workspace futuristic, these themes make your coding experience visually stunning.
+Transform your IDE into a futuristic coding environment with the **Cyberpunk Focus** collection—a set of next-generation themes inspired by a cyberpunk aesthetic. Designed to help you focus on important elements while keeping your workspace futuristic, these themes make your coding experience visually stunning.
 
 ---
 
@@ -43,19 +43,19 @@ The **Cyberpunk Focus** theme plugin delivers a modern and distraction-free expe
   Minimally invasive animations and subtle glows or shadows that keep the experience both stylish and robust.
 
 - **Extendable and Configurable**  
-  Flexible enough to adapt to various JetBrains IDEs, ensuring a consistent look and feel across your development environment.
+  Flexible enough to adapt to various IDEs, ensuring a consistent look and feel across your development environment.
 
 ---
 
 ## Installation
 1. **Marketplace (Recommended)**
-    - In your JetBrains IDE, go to:  
+    - In your IDE, go to:  
       *Settings / Preferences* → *Plugins* → *Marketplace*
     - Search for **“Cyberpunk Focus”**.
     - Click **Install** and restart your IDE if prompted.
 
 2. **Manual Installation**
-    - Download the plugin in your browser from the [JetBrains Marketplace](https://plugins.jetbrains.com/) or a known release source.
+    - Download the plugin in your browser from the [ Marketplace](https://plugins.jetbrains.com/) or a known release source.
     - In your IDE, open:  
       *Settings / Preferences* → *Plugins* → Click the gear icon → *Install Plugin from Disk...*
     - Locate the downloaded file, select it, and follow the prompts. Restart if prompted.
