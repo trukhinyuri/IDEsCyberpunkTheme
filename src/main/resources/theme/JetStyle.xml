@@ -1,0 +1,40 @@
+<scheme name="JetStyle" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2023-05-01</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2024.1.0.0</property>
+    <property name="modified">2023-05-01</property>
+    <property name="originalScheme">JetStyle</property>
+    <property name="author">Yuri Trukhin</property>
+  </metaInfo>
+  <colors>
+    <option name="ADDED_LINES_COLOR" value="00ff66" />
+    <option name="CARET_COLOR" value="ff00ff" />
+    <option name="CARET_ROW_COLOR" value="0a0a0a" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="000000" />
+    <option name="DELETED_LINES_COLOR" value="ff3333" />
+    <option name="DOCUMENTATION_COLOR" value="0a0a0a" />
+    <option name="GUTTER_BACKGROUND" value="000000" />
+    <option name="INDENT_GUIDE" value="202020" />
+    <option name="LINE_NUMBERS_COLOR" value="9090b0" />
+    <option name="MODIFIED_LINES_COLOR" value="ff9900" />
+    <option name="NOTIFICATION_BACKGROUND" value="0a0a0a" />
+    <option name="READONLY_FRAGMENT_BACKGROUND" value="0a0a0a" />
+    <option name="RECURSIVE_CALL_ATTRIBUTES" value="ff9900" />
+    <option name="RIGHT_MARGIN_COLOR" value="202020" />
+    <option name="SELECTED_INDENT_GUIDE" value="e0e0ff" />
+    <option name="SELECTED_TEARLINE_COLOR" value="ff00ff" />
+    <option name="SELECTION_BACKGROUND" value="3d00a0" />
+    <option name="SELECTION_FOREGROUND" value="ffffff" />
+    <option name="TEARLINE_COLOR" value="202020" />
+    <option name="WHITESPACES" value="202020" />
+  </colors>
+  <attributes>
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="e0e0ff" />
+        <option name="BACKGROUND" value="000000" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

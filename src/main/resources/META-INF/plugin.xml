@@ -1,0 +1,52 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>com.trukhin.ColorTheme</id>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>Cyberpunk Focus</name>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="yuri@trukhin.com" url="https://trukhin.com">Yuri Trukhin</vendor>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description><![CDATA[
+    <h2>Cyberpunk Focus Theme for IntelliJ IDEA</h2>
+
+    <p>A collection of cutting-edge, cyberpunk-inspired themes that transform your IDE into the most powerful and modern development environment of 2025. These themes are designed to focus only on what's important, with three variants to suit your preferences:</p>
+
+    <h3>Theme Variants:</h3>
+    <ul>
+      <li><strong>Full Cyberpunk:</strong> High-contrast theme with true black background, perfect for OLED screens and maximum focus</li>
+      <li><strong>Cyberpunk Subtle:</strong> Less contrasting dark theme that's easier on the eyes for extended use while maintaining the futuristic aesthetic</li>
+      <li><strong>Cyberpunk Subtle Light:</strong> Light variant with the same cyberpunk aesthetic for bright environments</li>
+    </ul>
+
+    <h3>Key Features:</h3>
+    <ul>
+      <li><strong>JetBrains Innovative Identity:</strong> Aligns with JetBrains' forward-thinking design language while pushing it into the future</li>
+      <li><strong>Focus on Important Elements:</strong> Enhanced contrast and visual hierarchy for code that matters</li>
+      <li><strong>Advanced UI Effects:</strong> Subtle glows, shadows, and animations that make other IDEs look outdated</li>
+      <li><strong>Cyberpunk Aesthetic:</strong> Vibrant magenta and cyan accents with a professional implementation</li>
+      <li><strong>Future-Proof Design:</strong> Clean, minimalist interface with futuristic elements that will still look modern in 2025</li>
+      <li><strong>Unique Professional Identity:</strong> Distinctive look that sets JetBrains IDEs apart from competitors</li>
+    </ul>
+
+    <p>Designed for professional developers who want a powerful, modern IDE that eliminates distractions and makes coding a visually stunning experience.</p>
+  ]]></description>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <!-- Extension points defined by the plugin.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="com.trukhin.cyberpunkfocus" path="/theme/CyberpunkFocus.theme.json"/>
+        <themeProvider id="com.trukhin.cyberpunksubtle" path="/theme/CyberpunkSubtle.theme.json"/>
+        <themeProvider id="com.trukhin.cyberpunksubtlelight" path="/theme/CyberpunkSubtleLight.theme.json"/>
+    </extensions>
+</idea-plugin>
